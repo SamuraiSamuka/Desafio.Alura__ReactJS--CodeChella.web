@@ -1,3 +1,23 @@
 :root {
-    
+    --boreal-verde-agua-marinha: #36C1A0;
+    --boreal-verde-herbal: #008364;
+    --boreal-azul-camarada: #304968;
+    --boreal-azul-ardosia: #4650BD; // menu, botões
+    --boreal-azul-ardosia-claro: #606ADA; // botões hover
+    --boreal-malva: #B6BCFF;
+
+    --verao-azul-aço: #2E7BA2; // menu, botões
+    --verao-azul-aço-claro: #519EC5; // botões hover
+    --verao-azul-claro: #C8DEEF;
+    --verao-mostarda: #DF9010;
+    --verao-bege: #FACF9D;
+    --verao-bege-claro: #FBF0DD;
+
+    --cinza: #444444;
+    --cinza-claro: #a0a0a0;
+}
+
+body {
+    font-family: Raleway;
+    color: var(--cinza);
 }

@@ -1,0 +1,34 @@
+.banner {
+    background: url("/Imagens/aurora-boreal.jpg") center/cover no-repeat;   
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.banner__titulo {
+    font-family: calistoga;
+    font-size: 32px;
+    text-align: center;
+    line-height: 1.4;
+}
+
+@media screen and (min-width: 720px) {
+    .banner{
+        height: 250px;
+    }
+
+    .banner__titulo{
+        font-size: 48px;
+    }
+}
+
+@media screen and (min-width: 1020px) {
+    .banner{
+        height: 300px;
+    }
+
+    .banner__titulo{
+        font-size: 64px;
+    }
+}

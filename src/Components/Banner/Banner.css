@@ -1,5 +1,7 @@
 .banner {
-    background: url("/Imagens/aurora-boreal.jpg") center/cover no-repeat;   
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
     height: 200px;
     display: flex;
     flex-direction: column;

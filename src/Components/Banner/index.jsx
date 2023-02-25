@@ -1,10 +1,9 @@
 import './Banner.css'
 
-export default function Banner() {
+export default function Banner({children, imagemDeFundo}) {
   return (
-    <div className="banner container">
-        <h1 className='banner__titulo'>Boas vindas ao</h1>
-        <h1 className='banner__titulo'>#CodeChella2023!</h1>
+    <div className="banner container" style={{backgroundImage:`url(${imagemDeFundo})` }}>
+        <h1 className='banner__titulo'>{children}</h1>
     </div>
   )
 }

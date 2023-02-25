@@ -1,4 +1,10 @@
-.LineUp__header {
-    display: flex;
-    color: black;
+.LineUp {
+    --font: 10px;
+}
+
+.LineUp__titulo {
+    text-align: center;
+    font-size: calc(var(--font)*6.4);
+    font-family: calistoga;
+    margin: 64px 0;
 }

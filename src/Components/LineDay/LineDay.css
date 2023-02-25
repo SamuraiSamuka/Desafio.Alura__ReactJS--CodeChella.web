@@ -1,0 +1,59 @@
+.LineDay {
+    --font: 10px;
+}
+
+.atracoes__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 48px;
+}
+
+.atracoes__header hr {
+    margin: 0;
+    height: 1px;
+    width: 30%;
+    border: none;
+    background: var(--boreal-verde-herbal);
+}
+
+.atracoes__data {
+    font-size: calc(var(--font)*3.6);
+    padding: 10px;
+    width: fit-content;
+    overflow: visible;
+    background-color: var(--boreal-verde-herbal)
+}
+
+.atracoes__body {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    align-items: center;
+}
+
+.atracoes__destaque {
+    font-size: calc(var(--font)*4);
+    font-weight: 800;
+}
+
+.atracoesB, .atracoesC, .atracoesD {
+    display: flex;
+    justify-content: center;
+    gap: 22px;
+}
+
+.atracoesB {
+    font-size: calc(var(--font)*3);
+    font-weight: 700;
+}
+
+.atracoesC {
+    font-size: calc(var(--font)*2.4);
+    font-weight: 700;
+}
+
+.atracoesD {
+    font-size: calc(var(--font)*2.2);
+    font-weight: 500;
+}

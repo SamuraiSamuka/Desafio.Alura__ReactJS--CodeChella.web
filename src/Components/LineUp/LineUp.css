@@ -4,7 +4,13 @@
 
 .LineUp__titulo {
     text-align: center;
-    font-size: calc(var(--font)*6.4);
+    font-size: calc(var(--font)*4.8);
     font-family: calistoga;
     margin: 64px 0;
+}
+
+@media screen and (min-width: 720px){
+    .LineUp__titulo {
+        font-size: calc(var(--font)*6.4);
+    }
 }

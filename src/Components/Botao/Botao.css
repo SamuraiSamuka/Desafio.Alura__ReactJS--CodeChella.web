@@ -1,0 +1,23 @@
+.botao {
+    display: flex;
+    align-items: center;
+    padding: 16px;
+
+    border-radius: 15px;
+    background-color: var(--boreal-azul-ardosia);
+    box-shadow: 5px 5px 0 var(--cinza);
+    
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-weight: 700;
+}
+
+.botao:hover {
+    background-color: var(--boreal-azul-ardosia-claro);
+}
+
+.botao svg {
+    height: 25px;
+    width: 25px;
+    margin-left: 10px;
+}

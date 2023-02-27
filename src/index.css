@@ -3,7 +3,7 @@
     --boreal-verde-herbal: #008364;
     --boreal-azul-camarada: #304968;
     --boreal-azul-ardosia: #4650BD; // menu, botões
-    --boreal-azul-ardosia-claro: #606ADA; // botões hover
+    --boreal-azul-ardosia-claro: #519ec5; // botões hover
     --boreal-malva: #B6BCFF;
 
     --verao-azul-aço: #2E7BA2; // menu, botões
@@ -27,10 +27,6 @@ body {
 
 a:hover {
     text-decoration: underline;
-}
-
-.dont-show {
-    display: none;
 }
 
 .container {

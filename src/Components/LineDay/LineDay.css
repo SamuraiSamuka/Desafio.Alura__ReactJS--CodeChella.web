@@ -1,27 +1,23 @@
 .LineDay {
     --font: 10px;
+    text-align: center;
 }
 
 .atracoes__header {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     margin-bottom: 48px;
 }
 
 .atracoes__header hr {
-    margin: 0;
-    height: 1px;
-    width: 30%;
-    border: none;
-    background: var(--boreal-verde-herbal);
+    display: none;
 }
 
 .atracoes__data {
-    font-size: calc(var(--font)*3.6);
+    font-size: calc(var(--font)*3.2);
     padding: 10px;
     width: fit-content;
-    overflow: visible;
     background-color: var(--boreal-verde-herbal)
 }
 
@@ -39,6 +35,7 @@
 
 .atracoesB, .atracoesC, .atracoesD {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     gap: 22px;
 }
@@ -56,4 +53,31 @@
 .atracoesD {
     font-size: calc(var(--font)*2.2);
     font-weight: 500;
+}
+
+@media screen and (min-width: 720px) {
+    .atracoes__header hr {
+        display: block;
+        margin: 0;
+        height: 1px;
+        width: min(21%, 200px);
+        border: none;
+        background: var(--boreal-verde-herbal);
+    }
+
+    .atracoes__header {
+        justify-content: space-between;
+        margin-bottom: 48px;
+    }
+
+    
+    .atracoes__data {
+        font-size: calc(var(--font)*3.6);
+    }
+}
+
+@media screen and (min-width: 1020px) {
+    .atracoes__header hr {
+        width: 30%;
+    }
 }

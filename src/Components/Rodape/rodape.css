@@ -29,6 +29,11 @@
     gap: 8px;
 }
 
+.redes__lista svg {
+    width: 27px;
+    height: 27px;
+}
+
 
 
 .creditos {

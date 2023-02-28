@@ -3,7 +3,7 @@
     --boreal-verde-herbal: #008364;
     --boreal-azul-camarada: #304968;
     --boreal-azul-ardosia: #4650BD; // menu, botões
-    --boreal-azul-ardosia-claro: #519ec5; // botões hover
+    --boreal-azul-ardosia-claro: #606ada; // botões hover
     --boreal-malva: #B6BCFF;
 
     --verao-azul-aço: #2E7BA2; // menu, botões
@@ -41,6 +41,18 @@ a:hover {
 
 @media screen and (min-width: 1020px) {
     .container {
-        padding: 24px 70px;
+        padding: 24px calc((100% - 950px)/2);
+    }
+}
+
+@media screen and (min-width: 1400px){
+    .container {
+        padding: 24px calc((100% - 1150px)/2);
+    }
+}
+
+@media screen and (min-width: 1650px){
+    .container {
+        padding: 24px calc((100% - 1250px)/2);
     }
 }

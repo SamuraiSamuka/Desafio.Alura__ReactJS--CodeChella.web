@@ -27,6 +27,7 @@ export default function LineUp() {
             atracoesC={["Miley Cypress", "The Bootstrap Boys", "Json Derulo", "CloudPlay", "Dev Lovato"]}
             atracoesD={["Kylie MiLOG", "Jenkins Brothers", "Rubycat Dolls"]}
         />
+        <img className='LineUp__imagem-bottom' src="https://s3-alpha-sig.figma.com/img/c755/df05/4a8df6479660a3c52ac82e710a0a4644?Expires=1678665600&Signature=BODt3Xudpu6Z4B7LSvIOEoY6~4alLxtmXxC1KjI-OGMlL0OsJF8D4DFlE41O4jVfysaWmKdR5brkhb6UtBrBbOdob9quMllv5l375xQz3dSJ98n~OgweNoGrunjiHYBiqwEzUL2UAqTGb7HJsBWX4FjT43p9IfWWAGtKmtskqfclkZT~xORN7x9k4FqGHMbpEWXVDoVysAVOaKMqE-W8lbgt8qDe3ygCpERnZnzxg24AnpPqOMmcy0QPEXhanv4B0WHnlxiXtjut3DKSjFb7z1fCdu6GtlF2tvVF6U-Z1DbKPLw6HVMZME3trZuiS6KM-1oNimYxQynsQ~auuQPiPA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4" alt="" />
     </div>
   )
 }

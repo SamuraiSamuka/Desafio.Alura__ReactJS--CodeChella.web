@@ -10,6 +10,7 @@
     border-radius: 15px;
     width: 100%;
     object-fit: cover;
+    height: 380px;
 }
 
 
@@ -38,10 +39,6 @@
         gap: 40px;
         padding-top: 40px;
         padding-bottom: 40px;
-    }
-
-    .card__imagem {
-        max-height: 
     }
 }
 

@@ -1,6 +1,7 @@
 .LineDay {
     --font: 10px;
     text-align: center;
+    margin-bottom: 35px;
 }
 
 .atracoes__header {
@@ -16,7 +17,8 @@
 
 .atracoes__data {
     font-size: calc(var(--font)*3.2);
-    padding: 10px;
+    font-family: calistoga;
+    padding: 16px;
     width: fit-content;
     background-color: var(--boreal-verde-herbal)
 }

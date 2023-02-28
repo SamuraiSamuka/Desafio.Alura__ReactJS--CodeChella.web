@@ -1,12 +1,12 @@
 import React from 'react'
-import { MdLocalActivity } from "react-icons/Md"
+import { HiTicket } from "react-icons/Hi"
 import "./Botao.css"
 
 export default function Botao({children}) {
   return (
     <button type='button' className='botao'>
         {children}
-        <MdLocalActivity />
+        <HiTicket />
     </button>
   )
 }

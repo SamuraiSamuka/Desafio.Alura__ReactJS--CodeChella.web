@@ -1,17 +1,9 @@
 import './LineUp.css'
 import LineDay from '../LineDay'
-import Card from '../Card'
-import Botao from '../Botao'
 
 export default function LineUp() {
   return (
     <div className="LineUp">
-        <Card
-          imagem="https://media.graphassets.com/resize=fit:clip,width:1000,/output=format:webp/ZuI1jUJxSX2OYD7Qfmwr"
-          titulo="< 11 e 12 de Março >"
-          subtitulo="Aluródromo de São Paulo"
-          texto="Hora de programar nossa memória com novas lembranças! Uma nova experiência sobre música, linguagens e, claro, tecnologia! Somos um festival diverso, com vários artistas e referências. Divirta-se!"
-        ><Botao>Comprar ingresso!</Botao></Card>
         <h1 className='LineUp__titulo'>/Line-Up/</h1>
         <LineDay 
             titulo="SÁBADO <11/03>"

@@ -1,8 +1,8 @@
 import './Card.css'
 
-export default function Card({imagem, titulo, subtitulo, texto, children, className}) {
+export default function Card({imagem, titulo, subtitulo, texto, children, className, styles}) {
   return (
-    <section className={`card container ${className}`}>
+    <section className={`card container ${className}`} style={{...styles}}>
         <img className='card__imagem' src={imagem} alt="" />
         <div className="card__info">
             <h3 className="card__titulo">{titulo}</h3>

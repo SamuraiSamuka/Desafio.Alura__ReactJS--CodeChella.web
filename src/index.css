@@ -22,7 +22,11 @@
 body {
     font-family: Raleway;
     color: white;
-    background: linear-gradient(180deg, #304968 0%, #36C1A0 52.6%, #4650BD 100%)
+    background: linear-gradient(180deg, #304968 0%, #36C1A0 52.6%, #4650BD 100%) no-repeat;
+}
+
+.principal {
+    padding: 40px 0;
 }
 
 a:hover {

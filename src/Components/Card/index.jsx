@@ -1,4 +1,4 @@
-import './card.css'
+import './Card.css'
 
 export default function Card({imagem, titulo, subtitulo, texto, children, className}) {
   return (

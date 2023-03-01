@@ -1,10 +1,32 @@
 import { useState } from 'react'
-import { Link } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 import Logo from '../Logo'
 import './Cabecalho.css'
 
 export default function Cabecalho() {
   const [inativo, setInativo] = useState(true)
+  const links = [
+    {
+      link: "/",
+      texto: "Início"
+    },
+    {
+      link: "/experiencia",
+      texto: "A experiência"
+    },
+    {
+      link: "",
+      texto: "Mapa de setores"
+    },
+    {
+      link: "",
+      texto: "Informações"
+    },
+    {
+      link: "",
+      texto: "Ingresso"
+    }
+  ]
 
   return (
     <header className='cabecalho container'>
@@ -12,10 +34,14 @@ export default function Cabecalho() {
         <nav className='cabecalho__nav'>
           <span onClick={()=> setInativo(!inativo)} className={`material-symbols-outlined cabecalho__nav-icon`}>menu</span>
           <ul className={`cabecalho__nav-lista ${inativo? "inativo": ""}`}>
-              <li className='cabecalho__nav__item'><Link to="/Experiencia">A experiência</Link></li>  <hr />
-              <li className='cabecalho__nav__item'><Link to="#null">Mapa de setores</Link></li>  <hr />
-              <li className='cabecalho__nav__item'><Link to="#null">Informações</Link></li>  <hr />
-              <li className='cabecalho__nav__item'><Link to="#null">Ingresso</Link></li>
+            {links.map(link => {
+              return (
+                <>
+                <li className='cabecalho__nav__item'><NavLink onClick={()=> setInativo(!inativo)} className={({ isActive, isPending })=> isActive ? "link__ativo" : isPending ? "link__pendente" : ""} to={link.link}>{link.texto}</NavLink></li> 
+                <hr />
+                </>
+              )
+            })}
           </ul>
         </nav>
     </header>

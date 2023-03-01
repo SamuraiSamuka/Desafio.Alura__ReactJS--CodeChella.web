@@ -2,13 +2,12 @@
     display: flex;
     flex-direction: column;
     gap: 32px;
-    padding-top: 32px;
-    padding-bottom: 32px;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 .card__imagem {
     border-radius: 15px;
-    width: 50%;
     object-fit: cover;
     height: 380px;
 }
@@ -20,7 +19,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 50%;
 }
 
 .card__titulo, .card__subtitulo {
@@ -48,7 +46,15 @@
         flex-direction: row;
     }
 
+    .card:nth-child(2n){
+        flex-direction: row-reverse;
+    }
+
     .card__imagem {
-        max-width: 48%;
+        width: 50%;
+    }
+
+    .card__info {
+        width: 50%;
     }
 }

@@ -14,7 +14,7 @@
 }
 
 .botao:hover {
-    background-color: #606ada;
+    background-color: var(--boreal-azul-ardosia-claro);
     cursor: pointer;
 }
 

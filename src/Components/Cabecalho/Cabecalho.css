@@ -25,10 +25,19 @@
 .cabecalho__nav-icon {
     padding-left: 15px;
     z-index: 3;
+    cursor: pointer;
 }
 
 .cabecalho__nav__item:hover {
     text-decoration: underline;
+}
+
+.cabecalho a {
+    color: var(--verao-azul-claro)
+}
+
+.cabecalho .link__ativo {
+    color: white;
 }
 
 
@@ -47,6 +56,7 @@
         padding: 140px 0 0 0; 
 
         background-color: var(--boreal-azul-ardosia);
+        z-index: 2;
     }
 
     .inativo {
@@ -59,6 +69,10 @@
         height: 1px;
         background-color: white;
     }
+/* 
+    .cabecalho__nav-lista hr:last-child {
+        display: none;
+    } */
 
     .cabecalho__nav__item {
         display: flex;

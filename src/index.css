@@ -1,13 +1,15 @@
 :root {
+    --boreal-azul-ardosia: #4650BD; 
+    --boreal-azul-ardosia-claro: #606ada;
+    
     --boreal-verde-agua-marinha: #36C1A0;
     --boreal-verde-herbal: #008364;
     --boreal-azul-camarada: #304968;
-    --boreal-azul-ardosia: #4650BD; // menu, botões
-    --boreal-azul-ardosia-claro: #606ada; // botões hover
     --boreal-malva: #B6BCFF;
 
-    --verao-azul-aço: #2E7BA2; // menu, botões
-    --verao-azul-aço-claro: #519EC5; // botões hover
+    --verao-azul-aço: #2E7BA2;
+    --verao-azul-aço-claro: #519EC5;
+
     --verao-azul-claro: #C8DEEF;
     --verao-mostarda: #DF9010;
     --verao-bege: #FACF9D;
@@ -15,8 +17,6 @@
 
     --cinza: #444444;
     --cinza-claro: #a0a0a0;
-    // aurora boreal - https://images.pexels.com/photos/2113554/pexels-photo-2113554.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1
-    // carrossel - https://lh3.googleusercontent.com/p/AF1QipPRwi5WQwesilSEVkaD8XsKtpJ5-9YINbhNz5EA=s680-w680-h510
 }
 
 body {
@@ -26,12 +26,13 @@ body {
 }
 
 .principal {
-    padding: 40px 0;
+    padding: 0px 0;
 }
 
 a:hover {
     text-decoration: underline;
 }
+
 
 .container {
     padding: 24px;

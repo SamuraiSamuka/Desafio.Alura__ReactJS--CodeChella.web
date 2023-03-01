@@ -19,11 +19,11 @@ export default function Cabecalho() {
       texto: "Mapa de setores"
     },
     {
-      link: "",
+      link: "/null",
       texto: "Informações"
     },
     {
-      link: "",
+      link: "/null",
       texto: "Ingresso"
     }
   ]

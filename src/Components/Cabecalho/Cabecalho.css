@@ -35,7 +35,7 @@
 }
 
 .cabecalho__nav__item:hover {
-    text-decoration: underline;
+    transform: scale(1.05)
 }
 
 .cabecalho a {
@@ -44,6 +44,8 @@
 
 .cabecalho .link__ativo {
     color: white;
+    padding-bottom: 2px;
+    border-bottom: 2px solid white;
 }
 
 .cabecalho__nav-lista hr:last-child {
@@ -54,6 +56,7 @@
 @media screen and (max-width: 719px) {
     .cabecalho__nav-lista {
         flex-direction: column;
+        gap: 20px;
         
         width: 100%;
         height: 100%;
@@ -72,12 +75,12 @@
         display: none;
     }
 
-    .cabecalho__nav-lista hr {
+    /* .cabecalho__nav-lista hr {
         width: 35%;
         border: none;
         height: 1px;
         background-color: white;
-    }
+    } */
 /* 
     .cabecalho__nav-lista hr:last-child {
         display: none;

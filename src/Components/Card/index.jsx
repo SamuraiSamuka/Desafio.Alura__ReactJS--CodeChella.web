@@ -1,7 +1,8 @@
 import './Card.css'
 
-export default function Card({imagem, titulo, subtitulo, texto, children, className}) {
+export default function Card({imagem, titulo, subtitulo, texto, children, className, tipo}) {
   return (
+    tipo === undefined ?
     <section className={`card container ${className}`}>
         <img className='card__imagem' src={imagem} alt="" />
         <div className="card__info">
@@ -11,5 +12,6 @@ export default function Card({imagem, titulo, subtitulo, texto, children, classN
             {children}
         </div>
     </section>
+    : ""
   )
 }

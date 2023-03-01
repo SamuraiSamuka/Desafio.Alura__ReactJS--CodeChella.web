@@ -8,7 +8,10 @@ import Botao from '../Components/Botao'
 export function PaginaInicial() {
   return(
     <>
-    <Banner imagemDeFundo={'/Imagens/aurora-boreal.jpg'}>Boas vindas ao <br />#CodeChella2023!</Banner>
+    <Banner 
+      imagemDeFundo={'/Imagens/aurora-boreal.jpg'}
+      className="opaco"
+    >Boas vindas ao <br />#CodeChella2023!</Banner>
     <Card
       imagem="https://media.graphassets.com/resize=fit:clip,width:1000,/output=format:webp/ZuI1jUJxSX2OYD7Qfmwr"
       titulo="< 11 e 12 de Março >"

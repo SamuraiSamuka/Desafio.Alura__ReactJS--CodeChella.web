@@ -12,12 +12,12 @@
 .palco__info {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    margin-top: -40px;
+    align-items: center;
 }
 
 .palco__titulo {
     font-weight: 700;
+    font-size: 28px;
     margin-bottom: 28px;
 }
 
@@ -43,10 +43,6 @@
         margin-bottom: 64px;
     }
 
-    .palco__info {
-        margin-top: -80px;
-    }
-
     .palco__titulo {
         font-size: 32px;
     }
@@ -55,22 +51,18 @@
 @media screen and (min-width: 1020px) {
     .palco {
         display: flex;
-        margin-bottom: 0px;
+        justify-content: center;
+        gap: 82px;
     }
 
     .palco__imagem {
-        width: 50%;
+        width: 60%;
         height: auto;
     }
 
     .palco__info {
-        width: 50%;
+        width: fit-content;
         justify-content: center;
-        align-items: left;
-        margin-top: 0;
+        align-items: start;
     }
-
-    /* .palco__titulo {
-        margin-bottom: 0;
-    } */
 }

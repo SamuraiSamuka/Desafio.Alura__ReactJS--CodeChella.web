@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import PaginaAExperiencia from './routes/PaginaAExperiencia'
 import { PaginaInicial } from './routes/PaginaInicial'
+import PaginaMapaSetores from './routes/PaginaMapaSetores'
 import Root from './routes/Root'
 
 const router = createBrowserRouter([
@@ -17,6 +18,10 @@ const router = createBrowserRouter([
       {
         path: "/Experiencia",
         element: <PaginaAExperiencia />
+      },
+      {
+        path: "/setores",
+        element: <PaginaMapaSetores />
       }
     ]
   }

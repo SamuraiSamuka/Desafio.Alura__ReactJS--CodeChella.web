@@ -7,7 +7,6 @@ export default function PaginaAExperiencia() {
     <>
     <Banner 
       imagemDeFundo={"https://s3-alpha-sig.figma.com/img/5a7e/3692/d9c827dc1d779a5779d699b85588fc81?Expires=1678665600&Signature=mn6b7s6irGooCFlGYYrpqPHizlpadGpGEZEdlecoapaDdyRnzkAFUsr7EkEk34yrhgIreh7vgTXe3hlGqOYshMDinDYSf63SnU5PM9RTYjuNeQVh5cae0MGOVgiPWItMp7pqxsxYZVMtDxnGEtIEuHxp8g~31o-VrRf63CeoVJ2clO69pH9IO5q4wbPFh4u4sU38EWUaZXQiZRiCR-Bhi18mUVdJlrdR9K~r4aFG7e5bb0jM4GMOmEr0Qf03Wx5xKRcTGaIuHVgWHsNoEL59N0a~Xm-vsiFj2fggau~UQCBXDFc5yybTepONmqDAraWhEyHWbFAt8xy2L6o8Va75dg__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"} 
-      styles={{mixBlendMode:'screen'}}
     >A Experiência</Banner>
     <main className="principal">
       <Card 

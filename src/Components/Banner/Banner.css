@@ -1,11 +1,22 @@
 .banner {
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover; 
+    background-size: cover;
     height: 200px;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    position: relative;
+}
+
+.banner::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(150,150,150,0.3);
 }
 
 .banner__titulo {
@@ -13,6 +24,7 @@
     font-size: 32px;
     text-align: center;
     line-height: 1.4;
+    z-index: 1;
 }
 
 @media screen and (min-width: 720px) {

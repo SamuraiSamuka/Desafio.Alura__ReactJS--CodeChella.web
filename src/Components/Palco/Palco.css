@@ -36,6 +36,14 @@
 .palco__lista__cor {
     width: 32px;
     height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.palco__lista__cor svg {
+    width: 80%;
+    height: 80%;
 }
 
 @media screen and (min-width: 720px) {
